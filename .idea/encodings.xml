@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/office_exam1/NormalCompany.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/office_exam1/TaxOffice.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/office_exam1/TaxWorker.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/train_system/FastTrain.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/train_system/Passenger.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/train_system/TrainStation.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

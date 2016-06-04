@@ -32,7 +32,7 @@ class 일반회사{
 public class NormalCompany{
     
 	// 세무사 사무실 직원 선언
-	public 새무사사무실직원 taxgirl = new 새무사사무실직원();
+	public 세무사사무실직원 taxgirl = new 세무사사무실직원();
     
     // 세금신고를 한다.
     public void send_tax_info(){

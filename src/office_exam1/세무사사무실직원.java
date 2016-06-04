@@ -32,7 +32,7 @@ class 세무사직원{
 }
 
 */
-public class 새무사사무실직원 {
+public class 세무사사무실직원 {
     
 	/* 외부제공 안되는 함수 */
 	

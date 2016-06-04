@@ -32,7 +32,7 @@ class 일반회사{
 public class NormalCompany{
     
 	// 세무사 사무실 직원 선언
-	public TaxWorker taxgirl = new TaxWorker();
+	public 새무사사무실직원 taxgirl = new 새무사사무실직원();
     
     // 세금신고를 한다.
     public void send_tax_info(){
@@ -49,7 +49,7 @@ public class NormalCompany{
     
     // 세무사 사무실에서 전화올 때
     // 즉, 이벤트핸들러임.
-    public void onCall_from_taxoffice(int nTaxMoney){
+    public void on세무사사무실에서_전화올때(int nTaxMoney){
         System.out.println("신고할 세금은 ? " + nTaxMoney + " 원");
     }
 }

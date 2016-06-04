@@ -32,7 +32,7 @@ class 세무사직원{
 }
 
 */
-public class TaxWorker{
+public class 새무사사무실직원 {
     
 	/* 외부제공 안되는 함수 */
 	
@@ -61,7 +61,7 @@ public class TaxWorker{
         } while(bComplete == false);
         
         // 고객에게 알려준다.
-        customer.onCall_from_taxoffice(0);
+        customer.on세무사사무실에서_전화올때(0);
         return 0;
     }
 }

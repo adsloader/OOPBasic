@@ -1,15 +1,15 @@
 package  train_system;
 import java.util.ArrayList;
 
-public class FastTrain {
+public class KTX열차 {
 	
 	// 필요한 것들. 정착역, 손님리스트, 현재 정착역 위치
 	String [] Stations = {"서울역", "천안", "대전", "대구", "부산"};
-	ArrayList <Passenger> customer = new ArrayList <Passenger>();
+	ArrayList <여행객> customer = new ArrayList <여행객>();
 	int nCurrent = 0;
 	
 	// 여행객이 승차한다.
-	public void passenger_in_train(Passenger person){
+	public void passenger_in_train(여행객 person){
 		String sNowStation = Stations[nCurrent];
 		if (!person.destination.equals(sNowStation)){
 			person.start = sNowStation;
@@ -24,7 +24,7 @@ public class FastTrain {
     void passenger_out_train(){
     	
 		for(int i =0; i< customer.size(); i++){
-			Passenger p = customer.get(i);
+			여행객 p = customer.get(i);
 			String sNowStation = Stations[nCurrent];
 			if(p.destination.equals(sNowStation)){
 			    p.leave_train();
